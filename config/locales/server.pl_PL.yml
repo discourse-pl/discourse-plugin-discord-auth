@@ -4,7 +4,6 @@ pl_PL:
     discord_client_id: 'Client ID aplikacji (ze strony <a href="https://discordapp.com/developers/applications/me">https://discordapp.com/developers/applications/me</a>)'
     discord_secret: 'Secret Key aplikacji'
     discord_trusted_guild: 'Zatwierdzaj automatycznie konta z tego serwera (gildii)'
-    js:
-      login:
-        discord:
-          title: "Discord login s.pl_PL"
+  login:
+    discord:
+      title: "Discord login s.pl_PL"
