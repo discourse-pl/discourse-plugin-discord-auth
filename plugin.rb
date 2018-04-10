@@ -82,7 +82,7 @@ class DiscordAuthenticator < ::Auth::OAuth2Authenticator
   end
 end
 
-auth_provider :title => 'with Discord',
+auth_provider :title => I18n.t("login.discord.title"),
               enabled_setting: "discord_enabled",
               :message => 'Log in via Discord',
               :frame_width => 920,
